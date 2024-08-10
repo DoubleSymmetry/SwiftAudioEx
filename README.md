@@ -32,7 +32,7 @@ device).
 
 ## Requirements
 
-iOS 11.0+
+iOS 11.0+, watchOS 6.0+
 
 ## Installation
 

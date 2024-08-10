@@ -8,7 +8,7 @@
 import Foundation
 import AVFoundation
 
-#if os(iOS)
+#if canImport(UIKit)
 import UIKit
 public typealias AudioItemImage = UIImage
 #elseif os(macOS)

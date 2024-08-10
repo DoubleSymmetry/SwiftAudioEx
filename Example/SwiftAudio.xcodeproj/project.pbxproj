@@ -16,7 +16,41 @@
 		9B8819782BC866E800E20DCE /* SwiftAudioEx in Frameworks */ = {isa = PBXBuildFile; productRef = 9B8819772BC866E800E20DCE /* SwiftAudioEx */; };
 		9B88197A2BC9883200E20DCE /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8819792BC9883200E20DCE /* PlayerViewModel.swift */; };
 		9B88197C2BC98F5000E20DCE /* QueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88197B2BC98F5000E20DCE /* QueueView.swift */; };
+		F0A05BE72C66962E00898E8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A05BE62C66962E00898E8B /* Preview Assets.xcassets */; };
+		F0A05BEA2C66962E00898E8B /* SwiftAudioWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F0A05BDD2C66962C00898E8B /* SwiftAudioWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F0A05BEE2C66970700898E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B8819602BC8657B00E20DCE /* Assets.xcassets */; };
+		F0A05BEF2C66974E00898E8B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88196F2BC866A300E20DCE /* Extensions.swift */; };
+		F0A05BF02C66974E00898E8B /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88196C2BC866A300E20DCE /* AudioController.swift */; };
+		F0A05BF12C66974E00898E8B /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8819792BC9883200E20DCE /* PlayerViewModel.swift */; };
+		F0A05BF22C66974E00898E8B /* SwiftAudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88195C2BC8657A00E20DCE /* SwiftAudioApp.swift */; };
+		F0A05BF32C66974E00898E8B /* QueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88197B2BC98F5000E20DCE /* QueueView.swift */; };
+		F0A05BF62C6697A200898E8B /* SwiftAudioEx in Frameworks */ = {isa = PBXBuildFile; productRef = F0A05BF52C6697A200898E8B /* SwiftAudioEx */; };
+		F0A05BF82C669B7B00898E8B /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A05BF72C669B7B00898E8B /* PlayerView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0A05BE82C66962E00898E8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B8819512BC8657A00E20DCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0A05BDC2C66962C00898E8B;
+			remoteInfo = "SwiftAudioWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F0A05BCF2C6695F300898E8B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F0A05BEA2C66962E00898E8B /* SwiftAudioWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9B8819592BC8657A00E20DCE /* SwiftAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,6 +64,9 @@
 		9B8819702BC866A300E20DCE /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		9B8819792BC9883200E20DCE /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
 		9B88197B2BC98F5000E20DCE /* QueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueView.swift; sourceTree = "<group>"; };
+		F0A05BDD2C66962C00898E8B /* SwiftAudioWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftAudioWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A05BE62C66962E00898E8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0A05BF72C669B7B00898E8B /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +78,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0A05BDA2C66962C00898E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A05BF62C6697A200898E8B /* SwiftAudioEx in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +94,7 @@
 			children = (
 				9B88196B2BC865E100E20DCE /* SwiftAudioEx */,
 				9B88195B2BC8657A00E20DCE /* SwiftAudio */,
+				F0A05BDE2C66962C00898E8B /* SwiftAudioWatch Watch App */,
 				9B88195A2BC8657A00E20DCE /* Products */,
 				9B8819762BC866E800E20DCE /* Frameworks */,
 			);
@@ -58,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				9B8819592BC8657A00E20DCE /* SwiftAudio.app */,
+				F0A05BDD2C66962C00898E8B /* SwiftAudioWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,6 +140,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F0A05BDE2C66962C00898E8B /* SwiftAudioWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F0A05BF72C669B7B00898E8B /* PlayerView.swift */,
+				F0A05BE52C66962E00898E8B /* Preview Content */,
+			);
+			path = "SwiftAudioWatch Watch App";
+			sourceTree = "<group>";
+		};
+		F0A05BE52C66962E00898E8B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F0A05BE62C66962E00898E8B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,10 +167,12 @@
 				9B8819552BC8657A00E20DCE /* Sources */,
 				9B8819562BC8657A00E20DCE /* Frameworks */,
 				9B8819572BC8657A00E20DCE /* Resources */,
+				F0A05BCF2C6695F300898E8B /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F0A05BE92C66962E00898E8B /* PBXTargetDependency */,
 			);
 			name = SwiftAudio;
 			packageProductDependencies = (
@@ -116,6 +182,26 @@
 			productReference = 9B8819592BC8657A00E20DCE /* SwiftAudio.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F0A05BDC2C66962C00898E8B /* SwiftAudioWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A05BEB2C66962E00898E8B /* Build configuration list for PBXNativeTarget "SwiftAudioWatch Watch App" */;
+			buildPhases = (
+				F0A05BD92C66962C00898E8B /* Sources */,
+				F0A05BDA2C66962C00898E8B /* Frameworks */,
+				F0A05BDB2C66962C00898E8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftAudioWatch Watch App";
+			packageProductDependencies = (
+				F0A05BF52C6697A200898E8B /* SwiftAudioEx */,
+			);
+			productName = "SwiftAudioWatch Watch App";
+			productReference = F0A05BDD2C66962C00898E8B /* SwiftAudioWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -123,11 +209,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1530;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					9B8819582BC8657A00E20DCE = {
 						CreatedOnToolsVersion = 15.3;
+					};
+					F0A05BDC2C66962C00898E8B = {
+						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
@@ -145,6 +234,7 @@
 			projectRoot = "";
 			targets = (
 				9B8819582BC8657A00E20DCE /* SwiftAudio */,
+				F0A05BDC2C66962C00898E8B /* SwiftAudioWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -156,6 +246,15 @@
 			files = (
 				9B8819652BC8657B00E20DCE /* Preview Assets.xcassets in Resources */,
 				9B8819612BC8657B00E20DCE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A05BDB2C66962C00898E8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A05BE72C66962E00898E8B /* Preview Assets.xcassets in Resources */,
+				F0A05BEE2C66970700898E8B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +274,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F0A05BD92C66962C00898E8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A05BEF2C66974E00898E8B /* Extensions.swift in Sources */,
+				F0A05BF02C66974E00898E8B /* AudioController.swift in Sources */,
+				F0A05BF82C669B7B00898E8B /* PlayerView.swift in Sources */,
+				F0A05BF12C66974E00898E8B /* PlayerViewModel.swift in Sources */,
+				F0A05BF22C66974E00898E8B /* SwiftAudioApp.swift in Sources */,
+				F0A05BF32C66974E00898E8B /* QueueView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0A05BE92C66962E00898E8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0A05BDC2C66962C00898E8B /* SwiftAudioWatch Watch App */;
+			targetProxy = F0A05BE82C66962E00898E8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9B8819662BC8657B00E20DCE /* Debug */ = {
@@ -295,6 +415,7 @@
 		9B8819692BC8657B00E20DCE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SwiftAudio/SwiftAudio.entitlements;
@@ -333,6 +454,7 @@
 		9B88196A2BC8657B00E20DCE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SwiftAudio/SwiftAudio.entitlements;
@@ -368,6 +490,69 @@
 			};
 			name = Release;
 		};
+		F0A05BEC2C66962E00898E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftAudioWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7U2TUNKNQX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftAudioWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.doublesymmetry.SwiftAudio;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doublesymmetry.SwiftAudio.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		F0A05BED2C66962E00898E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftAudioWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7U2TUNKNQX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SwiftAudioWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.doublesymmetry.SwiftAudio;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doublesymmetry.SwiftAudio.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -389,10 +574,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		F0A05BEB2C66962E00898E8B /* Build configuration list for PBXNativeTarget "SwiftAudioWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A05BEC2C66962E00898E8B /* Debug */,
+				F0A05BED2C66962E00898E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		9B8819772BC866E800E20DCE /* SwiftAudioEx */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftAudioEx;
+		};
+		F0A05BF52C6697A200898E8B /* SwiftAudioEx */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SwiftAudioEx;
 		};

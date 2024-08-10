@@ -408,7 +408,10 @@ class AVPlayerWrapper: AVPlayerWrapperProtocol {
     
     private func setupAVPlayer() {
         // disabled since we're not making use of video playback
+        #if !os(watchOS)
         avPlayer.allowsExternalPlayback = false;
+        #endif
+        
 
         playerObserver.player = avPlayer
         playerObserver.startObserving()

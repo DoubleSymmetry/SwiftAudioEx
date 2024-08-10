@@ -10,7 +10,7 @@ import SwiftAudioEx
 #if os(macOS)
 import AppKit
 public typealias NativeImage = NSImage
-#elseif os(iOS)
+#elseif canImport(UIKit)
 import UIKit
 public typealias NativeImage = UIImage
 #endif
