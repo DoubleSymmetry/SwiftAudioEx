@@ -373,12 +373,17 @@ class AVPlayerWrapper: AVPlayerWrapperProtocol {
     // MARK: - Util
 
     private func clearCurrentItem() {
-        guard let asset = asset else { return }
-        stopObservingAVPlayerItem()
-        
-        asset.cancelLoading()
-        self.asset = nil
-        
+       if (self.asset != nil) {
+              self.asset?.cancelLoading()
+              self.asset = nil
+       }
+        stopObservingAVPlayerItem()  
+
+        guard let currentItem = avPlayer.currentItem else { return }
+        // Remove all outputs from the current item
+        currentItem.outputs.forEach { output in
+            currentItem.remove(output)
+        }  
         avPlayer.replaceCurrentItem(with: nil)
     }
     
